@@ -1,5 +1,5 @@
 {
-  "name": "closure-compiler-plugin",
+  "name": "@semibold/closure-compiler-plugin",
   "version": "1.0.0",
   "description": "Google Closure Compiler plugin for Webpack 4+",
   "main": "src/index.js",
@@ -29,6 +29,9 @@
   "homepage": "https://github.com/Semibold/Closure-Compiler-Plugin#readme",
   "engines": {
     "node": ">=8.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "husky": {
     "hooks": {

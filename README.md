@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-npm i -D closure-compiler-plugin
+npm i -D @semibold/closure-compiler-plugin
 ```
 
 ## Requirements
@@ -39,7 +39,7 @@ Process only files which filename satisfies specified RegExp, defaults to `/\.js
 
 ```js
 const path = require("path");
-const ClosureCompilerPlugin = require("closure-compiler-plugin");
+const ClosureCompilerPlugin = require("@semibold/closure-compiler-plugin");
 
 module.exports = {
     entry: path.join(__dirname, "app.js"),
